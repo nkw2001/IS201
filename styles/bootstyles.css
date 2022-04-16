@@ -1,0 +1,50 @@
+body {
+    background-color: beige;
+}
+
+.common {
+    background-color: azure;
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 40px;
+    z-index: 1;
+}
+
+.mainbody {
+    top: 54px;
+    bottom: 39px;
+    right: 5px;
+    left: 5px;
+    z-index: 2;
+}
+
+.footer {
+    position: fixed;
+    bottom: 5px;
+    height: 25px;
+    left: 5px;
+    right: 5px;
+    z-index: 3;
+}
+
+.subheader {
+    float: right;
+    padding: 5px;
+}
+
+
+.caption {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.footercontent {
+    font-size: 14px;
+    text-align: center;
+    color: darkgrey;
+}
